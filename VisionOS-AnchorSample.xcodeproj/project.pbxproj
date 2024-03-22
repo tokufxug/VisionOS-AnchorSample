@@ -14,6 +14,9 @@
 		1A370B462BAD511300A6C7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A370B452BAD511300A6C7EF /* Assets.xcassets */; };
 		1A370B492BAD511300A6C7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A370B482BAD511300A6C7EF /* Preview Assets.xcassets */; };
 		1A370B542BAD511300A6C7EF /* VisionOS_AnchorSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A370B532BAD511300A6C7EF /* VisionOS_AnchorSampleTests.swift */; };
+		1A370B5E2BAD51C500A6C7EF /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A370B5D2BAD51C500A6C7EF /* tv_retro.usdz */; };
+		1A370B602BAD580600A6C7EF /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A370B5F2BAD580600A6C7EF /* toy_drummer_idle.usdz */; };
+		1A370B622BAD581800A6C7EF /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A370B612BAD581800A6C7EF /* toy_car.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		1A370B4A2BAD511300A6C7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A370B4F2BAD511300A6C7EF /* VisionOS-AnchorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VisionOS-AnchorSampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A370B532BAD511300A6C7EF /* VisionOS_AnchorSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOS_AnchorSampleTests.swift; sourceTree = "<group>"; };
+		1A370B5D2BAD51C500A6C7EF /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		1A370B5F2BAD580600A6C7EF /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		1A370B612BAD581800A6C7EF /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 		1A370B3A2BAD511200A6C7EF /* VisionOS-AnchorSample */ = {
 			isa = PBXGroup;
 			children = (
+				1A370B5F2BAD580600A6C7EF /* toy_drummer_idle.usdz */,
+				1A370B612BAD581800A6C7EF /* toy_car.usdz */,
+				1A370B5D2BAD51C500A6C7EF /* tv_retro.usdz */,
 				1A370B3F2BAD511200A6C7EF /* VisionOS_AnchorSampleApp.swift */,
 				1A370B412BAD511200A6C7EF /* ContentView.swift */,
 				1A370B432BAD511200A6C7EF /* ImmersiveView.swift */,
@@ -198,8 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A370B5E2BAD51C500A6C7EF /* tv_retro.usdz in Resources */,
+				1A370B602BAD580600A6C7EF /* toy_drummer_idle.usdz in Resources */,
 				1A370B492BAD511300A6C7EF /* Preview Assets.xcassets in Resources */,
 				1A370B462BAD511300A6C7EF /* Assets.xcassets in Resources */,
+				1A370B622BAD581800A6C7EF /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
